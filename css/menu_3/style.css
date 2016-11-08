@@ -41,7 +41,7 @@ nav li a {
 	display: block;
 	float: left;
 	font-weight: 500;
-	padding: 0.3%;
+	padding: 0.15%;
 	font-size: 100%;
 	text-align: center; 
 	text-decoration: none;
@@ -64,9 +64,12 @@ nav li a:hover {
 
 /*SMALL*/
 nav small {
-	font: 100 11px/1 Helvetica, Verdana, Arial, sans-serif;
+	font-weight: 200;
+	font-size: 65%;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
 	text-transform: none;
 	color: #aaa;
+	position: relative;
 }
 
 /*BORDER FIX*/
