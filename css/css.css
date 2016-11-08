@@ -1,0 +1,467 @@
+@import url(https://fonts.googleapis.com/css?family=Hind); /*--- Body Font --*/
+@import url(https://fonts.googleapis.com/css?family=Nobile); /*--- Heading Font --*/
+
+/* editing the HTML-FILE for itself - reseting all pre-definied settings that the browser provides */
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.output {
+	border: 1px solid black;
+	margin: 20px;
+	background-color:#CCC;
+	font-family: 'Hind', sans-serif;
+	font-size: 15px !important;
+	text-align: center !important;
+}
+
+.output p {
+	font-family: 'Hind', sans-serif !important;
+}
+
+body {
+	background-color: #FFF;
+	font-family: 'Hind', sans-serif; /* reference to imported font by google from the top  */
+	font-size: 18px;
+	position: relative; /* default positioning - everything that now follows should be considered */
+}
+
+h1 {
+	font-family: 'Hind', sans-serif;
+	text-align: center;
+	font-size: 175%; /* 175% of what is definied in the body,in this case 18px */
+	color: #4A4444;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding: 0.5% 0; /* 3% TOP and BOTTOM and 0 LEFT and RIGHT */
+}
+
+
+h3 {
+	font-family: 'Hind', sans-serif;
+	text-align: center;
+	color: #4A4444;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+p {
+	padding: 2%;
+	color: #4A4444;
+	text-align: justify;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#banner-wrapper {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+#banner-wrapper h1 {
+	border-bottom: 1px solid #4A4444;
+}
+
+#banner-wrapper.article h1 {
+	border: none;
+}
+
+/* --------- Image Slider Style - Start --------- */
+
+.slider {
+	width: 100%;
+}
+
+.slider1 img {
+	min-width: 100%;
+	margin: 0 auto;
+}
+
+.slider .bx-wrapper .bx-controls-direction a {	/* for previous and next button */
+	outline: 0 none;
+	position: absolute; /* stays in the same position all the time */
+	text-indent: -9999px;
+	top: 40%;
+	height: 71px;
+	width: 40px;
+	z-index: -1;	/* width this it is not displaying */
+	transition: all 0.7s; /* have an effect on the hovering */
+}
+
+.slider .bx-wrapper:hover .bx-controls-direction a {
+	z-index: 5;
+}
+
+.slider .bx-wrapper .bx-prev { /* previous button */
+	background: #000 url('img/left-arrow-white.png') no-repeat 8px 13px; /* the last pixels indicating some padding (TOP/BOTTOM and LEFT/RIGHT) */
+	left: 0px;
+	opacity: 0.3; /* we see third percent of the black color */
+}
+
+.slider .bx-wrapper .bx-prev:hover {
+	opacity: 0.6; 
+}
+
+.slider .bx-wrapper .bx-next { /* next button */
+	background: #000 url('img/right-arrow-white.png') no-repeat 10px 12px; /* the last pixels indicating some padding (TOP/BOTTOM and LEFT/RIGHT) */
+	right: 0px;
+	opacity: 0.3; /* we see third percent of the black color */
+}
+
+.slider .bx-wrapper .bx-next:hover {
+	opacity: 0.6; 
+}
+
+.banner-header {
+	margin: 0 auto;
+	text-align:center;
+	padding: 0% 2% 0% 2%;
+	margin-bottom: 1%;
+}
+
+.banner-header img {
+	width: 45%;
+}
+
+.quote-header {
+	font-style:italic;
+	letter-spacing: 5px;
+	font-size: 130%;
+}
+
+/* --------- Image Slider Style - End --------- */
+
+.full-width {
+	width: 90%;
+	margin: 0 auto;
+	padding: 3%;
+	text-align: center;
+}
+
+.one-half {
+	width: 44%; /* not 50% as we need some space for margin */
+	float: left;
+	margin: 2% 0% 3% 4%; /* from TOP to LEFT */
+	text-align: center;
+}
+
+.one-third {
+	width: 28%;
+	float: left;
+	margin: 2% 0% 0.5% 4%;
+	text-align: center;
+}
+
+.one-third img {
+	margin-bottom: 2%;
+}
+
+.one-quarter {
+	width: 20%;
+	float: left;
+	margin: 2% 0% 3% 4%;
+	text-align: center;
+}
+
+.one-quarter img {
+	margin-bottom: 2%;
+}
+
+.left-col {
+	width: 60%;
+	float: left;
+	margin: 4% 0 4% 4%;
+}
+
+.sidebar {
+	width: 26%;
+	float: right;
+	margin: 4%;
+}
+
+.sidebar img {
+	opacity: 0.7;
+}
+
+.clear { 
+	clear: both; 
+}
+
+.section-border {
+ 	/*background: url(img/template/verlauf_border.jpg) repeat-x ;*/
+	background-color: #505E67;
+	-moz-box-shadow: 3px 3px 6px 6px #505E67;
+ 	-webkit-box-shadow: 3px 3px 6px 6px #505E67;
+    box-shadow: 3px 3px 6px 6px #505E67;
+	text-align: center;
+	height: 1px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom:20px;
+}
+
+/* Media Screen for Section Border */
+@media screen and (max-width: 968px) {
+	.section-border {		
+		-moz-box-shadow: 3px 3px 4px 5px #505E67;
+ 		-webkit-box-shadow: 3px 3px 4px 5px #505E67;
+    	box-shadow: 3px 3px 4px 5px #505E67;
+		height: 0.5px;
+	}
+}
+
+/* --------- Parallax Section Style - Start --------- */
+
+.parallax-1 {
+	background: url("https://www.w3newbie.com/wp-content/uploads/parallax-2.jpg") repeat fixed 100%; /*display image fixed and 100 % width of the screen */
+	text-align: center;
+}
+
+.parallax-inner {
+	padding-top: 70px;	/* providing the space of the image that should be shown - depending on the amount of the text*/
+	padding-bottom: 400px;
+}
+
+.parallax-2 {
+	background: url("https://www.w3newbie.com/wp-content/uploads/black-pattern.jpg") repeat fixed 100%; /*display image fixed and 100 % width of the screen */
+	text-align: center;
+}
+
+.parallax-inner h3, .parallax-inner p {
+	color: #F1F1F1;
+}
+
+
+/* --------- Parallax Section Style - End --------- */
+
+footer {
+	background-color: #262E37;
+	opacity: 0.9;
+	width: 100%;
+	margin-top: 2%;
+	padding: 1% 0 1% 0%;
+	overflow: auto;
+}
+
+footer p, footer .one-third h3 {
+	color: #F1F1F1;
+}
+
+/* --------- Responsive Style - Media Queries - Start --------- */
+
+@media screen and (max-width: 768px) {
+
+	.slider .bx-wrapper .bx-controls {
+		display: none;
+	}
+
+	.parallax-inner {
+		display: none;
+	}
+
+	.one-third {
+		width: 100%;
+		margin: 4% 0;
+	}
+
+	.one-quarter img {
+		margin-bottom: 2%;
+	}
+
+	.one-half {
+		width: 100%;
+		margin: 4% 0;
+	}
+
+	h1 {
+		font size: 130%
+	}
+
+	.left-col {
+		width: 100%;
+		margin: 0 0 3% 0;
+	}
+
+	.sidebar {
+		width: 100%;
+		margin: 0; 
+	}
+
+	img {
+		width: 100%;
+	}
+
+	h3 {
+		padding-top: 3%;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	.one-quarter {		
+		width: 44%;
+		float: left;
+		margin: 2% 0% 3% 4%;
+		text-align: center;	
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+	.one-quarter {
+		width: 100%;
+		float: left;
+		margin: 4% 0;
+		text-align: center;
+	}
+	
+}
+
+/* --------- Responsive Style - Media Queries - End --------- */
+
+/* --------- Social Buttons Style - Start --------- */
+
+.social li {
+	display: block;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	padding: 0;
+	width: 28%;	/*Becuase we have six social buttons */
+	float: left;
+}
+
+.social i { /* i for icons */
+	color: #fff;
+	font-size: 100%;
+	opacity: 0.8;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	padding: 3%;
+	box-sizing: border-box; /* need for the full 16.66667 % */
+}
+
+.social i:hover {
+	opacity: 1.5;
+}
+
+#facebook {
+	background-color: #3A5795;
+}
+
+#google-plus {
+	background-color: #D95232;
+}
+
+#twitter {
+	background-color: #5EA9DD;
+}
+
+#youtube {
+	background-color: #E12B27;
+}
+
+#instagram {
+	background-color: #527FA4;
+}
+
+#email {
+	background-color: #C92C19;
+}
+
+@media screen and (max-width:980px) {
+
+	.social i {
+		font-size: 80%;
+		padding: 2%;
+	}
+
+	.social li {
+		width: 50%;
+	}
+
+}
+
+@media screen and (max-width:768px) {
+
+	.social i {
+		font-size: 70%;
+		padding: 2%;
+	}
+
+	.social li {
+		width: 100%;
+		float: none;
+	}
+
+}
+
+/* --------- Rotate Images - Start --------- */
+
+.image {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+.image:hover {
+
+}
+
+/* --------- Rotate Images - End --------- */
+
+/* --------- Materials Icons Override - Start --------- */
+
+.materials.icon {	
+	margin-bottom: 0.2em;
+	border: 0.03em solid #505E67;
+	border-radius: 0.5em; /* 1em = 100 %, therfore we have 360°*/
+	padding: 5%;
+	overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.materials.icon.english {
+	background-color:#C969C1;
+}
+
+.materials.icon.informatics {
+	background-color:#286C7D;
+}
+
+.materials.icon.philosophy {
+	background-color:#EA700B;
+}
+
+.materials.icon.math {
+	background-color:#353664;
+}
+
+.materials.icon.german {
+	background-color:#930B0B;
+}
+
+.materials.icon.history {
+	background-color:#A94F27;
+}
+
+.materials.icon.chemics {
+	background-color:#FC0;
+}
+
+.materials.icon.physics {
+	background-color:#0080FF;
+}
+
+/*
+.materials.icon:hover {
+	transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}`
+*/
+
+/* --------- Materials Icons Override - End --------- */
