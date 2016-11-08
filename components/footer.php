@@ -27,10 +27,10 @@
         <p>      
        		<ul class="social">
                 <li><a href="" target="_blank"><i class="fa fa-facebook" id="facebook"></i></a></li>
-                <li><a href="" target="_blank"><i class="fa fa-google-plus" id="google-plus"></i></a></li>
+                <li><a href="" target="_blank"><i class="fa fa-google-plus" id="google-plus"></i></a></li>              
+                <li><a href="" target="_blank"><i class="fa fa-envelope-o" id="email"></i></a></li>
                 <li><a href="" target="_blank"><i class="fa fa-twitter" id="twitter"></i></a></li>
                 <li><a href="" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a></li>
-                <li><a href="" target="_blank"><i class="fa fa-envelope-o" id="email"></i></a></li>
                 <li><a href="" target="_blank"><i class="fa fa-youtube" id="youtube"></i></a></li>
             
         	</ul>
