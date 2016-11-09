@@ -1,6 +1,6 @@
 <footer>		
     <section class="one-third"> <!--- One Third of the whole page size/width-->
-        <h3>Heading Title</h3>
+        <h3>Wichtige Links</h3>
         <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
             sanctus est 
@@ -10,7 +10,7 @@
         </p>					
     </section>
     <section class="one-third"> <!--- One Third of the whole page size/width-->
-        <h3>Heading Title</h3>
+        <h3>Kontakt</h3>
         <p>
             <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
             ...tomorrow we will run faster, stretch out our arms farther...

@@ -41,7 +41,7 @@ nav li a {
 	display: block;
 	float: left;
 	font-weight: 500;
-	padding: 0.15%;
+	padding: 0.5%;
 	font-size: 100%;
 	text-align: center; 
 	text-decoration: none;
@@ -49,17 +49,23 @@ nav li a {
 	letter-spacing: 3px;
 	width: 12.5%;
 	
+	
 	/*TRANSISTIONS*/
-	-webkit-transition: background 0.7s ease;
-	   -moz-transition: background 0.7s ease;
-	     -o-transition: background 0.7s ease;
-	    -ms-transition: background 0.7s ease;
-	        transition: background 0.7s ease;
+	-webkit-transition: background 0.9s ease;
+	   -moz-transition: background 0.9s ease;
+	     -o-transition: background 0.9s ease;
+	    -ms-transition: background 0.9s ease;
+	        transition: background 0.9s ease;
 }
 
 /*HOVER*/
 nav li a:hover {
 	background: #222;
+	/*
+	-moz-box-shadow:    inset 0 0 7px #FFF;
+    -webkit-box-shadow: inset 0 0 7px #FFF;
+    box-shadow:         inset 0 0 7px #FFF;
+	*/
 }
 
 /*SMALL*/
@@ -113,31 +119,13 @@ nav .red {
 }
 
 /* MEDIA QUERIES*/
-@media only screen and (max-width : 1220px),
-only screen and (max-device-width : 1220px){
-	nav li a {
-		font: 400 78%/1.4 'Hind', sans-serif;
-	}
-	
-	nav small {
-		font: 100 10px/1 'Hind', sans-serif;
-	}
-	
-	.quote-header {
-		font-size:110%;
-	}
-	
-	.banner-header img {
-		width: 60%;
-	}
-}
 
-@media only screen and (max-width : 930px),
-only screen and (max-device-width : 930px){
+@media only screen and (max-width : 1280px),
+only screen and (max-device-width : 1280px){
 	nav li a {
 		width: 25%;
 		border-bottom: 1px solid #fff;
-		font: 400 80%/1.4 'Hind', sans-serif;
+		font: 500 85%/1.4 'Hind', sans-serif;
 	}
 	
 	nav li:last-child a, nav li:nth-child(4) a {

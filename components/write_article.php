@@ -3,11 +3,11 @@
 	<!-- tell to browser how to display websites -->
 	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- This is for mobile versions -->
 	<title>Education Online | Für Lerner und Lehrende</title>
-		<link href="../css/jquery.bxslider.css" rel="stylesheet" /> <!-- CSS for Image Slider if needed -->
-		<link href="../css/font-awesome.min.css" rel="stylesheet"/> <!-- CSS For Front-Awseome -->		 
-        <link href="../css/css.css" rel="stylesheet"> <!-- General CSS -->
-        <link href="../css/menu_3/style.css" rel="stylesheet"> <!-- General CSS -->            
-        <link rel="stylesheet" type="text/css" href="../css/back_to_top/style.css" /> <!-- CSS for Back to the Top Button -->
+		<link href="../styles/jquery.bxslider.css" rel="stylesheet" /> <!-- CSS for Image Slider if needed -->
+		<link href="../styles/font-awesome.min.css" rel="stylesheet"/> <!-- CSS For Front-Awseome -->		 
+        <link href="../styles/css.css" rel="stylesheet"> <!-- General CSS -->
+        <link href="../styles/menu_3/style.css" rel="stylesheet"> <!-- General CSS -->            
+        <link rel="stylesheet" type="text/css" href="../styles/back_to_top/style.css" /> <!-- CSS for Back to the Top Button -->
         <link rel="shortcut icon" type="image/png" href="../img/w3-favicon.png"/> <!-- Favicon -->
 		<script src="js/modernizr.custom.js"></script>   
 </head>
