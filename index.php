@@ -24,8 +24,9 @@
     <!-- End - Navigation -->
 	<!--- Start Banner Wrapper -->
 		<div id="banner-wrapper">		
-			<div class="one-half"> <!--- The half space of the whole page-width-->
-				<h3>Für Lernende</h3>
+			<div class="one-half"> <!--- The half space of the whole page-width-->               
+                <img src="img/Lernende2.png" width="30%">               
+                <h3>Für Lernende</h3>
 				<p>
 					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
                     sanctus es
@@ -35,7 +36,8 @@
 				</p>
 			</div>
 			<div class="one-half"> <!--- The half space of the whole page-width-->
-				<h3>Für Lehrende</h3>
+				<img src="img/Lernende3.png" width="30%">
+                <h3>Für Lehrende</h3>             
 				<p>
 					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
                     sanctus est 
